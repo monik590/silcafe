@@ -1,13 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
 .navbar-background{
-  background-color: #07206E
+  background-color: #31046D;
 
 }
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-  color:#D9DF11
+  color:#D9DF11;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color:#fff
+    color:#fff;
+}
+
+.config-head{
+  background-color: #E9EF40;
+  padding: 1%;
+}
+
+.config-into-head{
+  border-style: solid;
+  border-color: #31046D ;
+  border-radius: 5px;
+}
+
+.text-style-head{
+  font-family: 'Impact';
+  color: #31046D;
+  font-size: 400%;
+  font-weight: bold;
+  -webkit-text-stroke: 2px white;
+  margin: 0;
+  /* text-shadow: #555 2px 2px 2px ; */
+  text-shadow: -4px 1px 6px rgba(14,33,51,0.43);
 }

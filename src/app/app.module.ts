@@ -10,6 +10,7 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
+import { HeadComponent } from './shared/head/head.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ContactusComponent } from './components/contactus/contactus.component';
     NavbarComponent,
     HomeComponent,
     AboutComponent,
-    ContactusComponent
+    ContactusComponent,
+    HeadComponent
   ],
   imports: [
     BrowserModule,
