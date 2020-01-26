@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+.navbar-background{
+  background-color: #07206E
+
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color:#D9DF11
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:#fff
+}
